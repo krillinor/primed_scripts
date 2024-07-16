@@ -1,5 +1,4 @@
 library(data.table)
-library(bigsnpr)
 
 strand_flip = function(x) {
     fcase(
